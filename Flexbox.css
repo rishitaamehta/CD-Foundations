@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: ivory;
+}
+
+body {
+  font-family: "Mukta";
+}
+
+div.name {
+  font-size: 20px;
+}
+
+div.welcome {
+  font-size: 20px;
+}
+
+/* row 1 - menu */
+.menu-container {
+  color: black;
+  background-color: #FDFD96 ;  /* Yellow */
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.menu {
+
+  width: 900px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.myworks {
+  ;
+}
+
+/* projects */
+.tiles {
+  display: flex;
+  justify-content: center;
+
+}
+
+.project {
+  width: 900px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* work1 */
+a.work1:link {
+  display: block;
+  text-decoration: none;
+  background-color: #94B0B7;
+  padding: 15px;
+  color: white;
+}
+
+a.work1:visited {
+  display: block;
+  text-decoration: none;
+  background-color: #94B0B7;
+  padding: 15px;
+  color: white;
+}
+
+a.work1:hover {
+  color: black;
+  background-color: #C2CBC5;
+}
+
+a.work1:active {
+  color: #FFF;
+  background-color: #94B0B7;
+}
+
+/* work2 */
+a.work2:link {
+  display: block;
+  text-decoration: none;
+  background-color: #7697A0;
+  padding: 15px;
+  color: white;
+}
+
+a.work2:visited {
+  display: block;
+  text-decoration: none;
+  background-color: #7697A0;
+  padding: 15px;
+  color: white;
+}
+
+a.work2:hover {
+  color: black;
+  background-color: #C2CBC5;
+}
+
+a.work2:active {
+  color: #FFF;
+  background-color: #7697A0;
+}
+
+/* work3 */
+a.work3:link {
+  display: block;
+  text-decoration: none;
+  background-color: #4A707A;
+  padding: 15px;
+  color: white;
+}
+
+a.work3:visited {
+  display: block;
+  text-decoration: none;
+  background-color: #4A707A;
+  padding: 15px;
+  color: white;
+}
+
+a.work3:hover {
+  color: black;
+  background-color: #C2CBC5;
+}
+
+a.work3:active {
+  color: #FFF;
+  background-color: #4A707A;
+}

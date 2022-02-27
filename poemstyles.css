@@ -1,0 +1,46 @@
+/* this changes three of the default styles and many webdeisgners include this in teh top of every style they create. */
+
+
+
+main {
+  max-width: 1000px;
+  margin:auto;
+
+}
+
+body {
+  background-color: ivory;
+  opacity: 0.9;
+  padding-top: 30px;
+  margin: 25px 300px 75px;
+
+}
+
+h1 {
+  text-align: justify;
+  background-color: grey;
+    color: white;
+    text-transform: uppercase;
+font-family: 'Yanone Kaffeesatz', sans-serif;
+font-size: 300%;
+}
+
+div.a {
+  text-align:left;
+  font-family: 'Roboto', sans-serif;
+}
+
+div.b {
+  text-align:right;
+  font-family: 'Antonio', sans-serif;
+}
+
+div.c {
+  text-align:justify;
+  font-family: 'Mukta', sans-serif;
+}
+
+div.d {
+  text-align:right;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}

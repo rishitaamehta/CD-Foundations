@@ -1,0 +1,53 @@
+/* this changes three of the default styles and many webdeisgners include this in teh top of every style they create. */
+
+
+main {
+border-right: 50px solid transparent;
+  border-left: 50px solid transparent;
+    padding: 20px;
+    border-image: url("paper.jpeg") 30% round;
+background-image: url("paper.jpg");
+}
+
+
+body {
+  margin: auto;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  max-width: 950px;
+  font-family: "Quicksand", light;
+  background-color: #7B768D;
+  background-position: center;
+}
+
+
+h2 {
+  font-weight: 100;
+  font-size: 150%;
+
+}
+
+h1{
+  font-family: "EB Garamond", bold;
+  font-size: 200%;
+}
+
+h3{
+  font-family: "EB Garamond";
+  font-weight:bold;
+  font-size: 150%;
+}
+
+div.a {
+  font-family: "Shizuru";
+  font-size: 300%;
+  text-align: right;
+  color: #5453A6;
+
+}
+
+p {
+  text-align: right;
+  color: #5453A6;
+
+}
