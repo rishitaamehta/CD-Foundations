@@ -1,0 +1,112 @@
+/* This changes three of the default styles and many webdesigners include this in the top of every style they create. */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --black: #000;
+  --background: gainsboro;
+}
+
+body {
+  color: var(--black);
+  background: var(--background);
+  text-align: justify;
+}
+
+.menu{
+  display: flex;
+  justify-content: space-around;
+  color: #fff;
+}
+
+/* Home */
+a.home:link {
+  color: ivory;
+}
+
+a.home:visited {
+  color: white;
+}
+
+a.home:hover {
+  color: #1da099;
+}
+
+a.home:active {
+  color: white;
+}
+
+.box {
+  max-width: 800px;
+  margin: auto;
+  padding: 2rem;
+  column-gap: 2rem;
+  line-height: 1.4rem;
+
+}
+
+p {
+  margin-bottom: 1rem;
+}
+.content {
+}
+.row {
+  background: white;
+
+}
+#header {
+  background: #1c2e4a;
+  color: white;
+}
+#footer {
+  background: #152238;
+  color: white;
+}
+.hero-image {
+  background-image: url("ship.jpeg");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  text-align: center;
+  color: white;
+  min-height: 200px
+}
+.hero-text {
+  text-align: right;
+  position: sticky;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+/* Choice */
+a.choice:link {
+  color: ivory;
+}
+
+a.choice:visited {
+  color: white;
+}
+
+a.choice:hover {
+  color: #1da099;
+}
+
+a.choice:active {
+  color: white;
+}
+
+@media (min-width: 600px) {
+.box {
+  column-count: 2;
+  text-align: left;
+}
+}
