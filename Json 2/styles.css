@@ -1,0 +1,43 @@
+*{
+  box-sizing: border-box;
+  }
+
+body {
+    margin: auto;
+    max-width: 1000px;
+}
+
+h1{
+  width: 100%;
+  font-size: 30px;
+  color: #006400;
+  text-align: center;
+  font-family: Rubik Microbe;
+}
+
+.gallerydiv {
+    width: 30%;
+}
+
+.galleryphoto {
+    width: 100%;
+}
+
+#data_holder {
+    display: flex;
+    gap: 50px;
+}
+
+div{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: row;
+}
+
+p{
+  text-align: center;
+  background-color: #8FBC8F;
+  border: 1px dashed white;
+  width: 100%;
+}
