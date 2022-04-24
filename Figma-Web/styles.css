@@ -15,6 +15,10 @@ body{
 .dropdown {
   position: relative;
   display: inline-block;
+  margin-left: 70px;
+  position: relative;
+  top: 5px;
+  shadow: 2px 2px 7px #0096aa;
 }
 
 .dropdown-content {
@@ -34,13 +38,41 @@ body{
 div.box{
   color: black;
   background-color: #80deea ;
-  padding: 20px ;
-
+  padding: 25px;
+  display: flex;
 }
+
 
 h1{
   color: white;
   text-shadow: 2px 2px 5px #0096aa;
+  margin-left: 10px;
+  font-size: 2em;
+}
+
+/* .links{
+  margin-left: 700px;
+} */
+
+.ig{
+  margin-left: 600px;
+  position: relative;
+  top: 10px;
+}
+.be{
+  margin-left: 10px;
+  position: relative;
+  top: 10px;
+}
+.in{
+  margin-left: 10px;
+  position: relative;
+  top: 10px;
+}
+.mail{
+  margin-left: 10px;
+  position: relative;
+  top: 10px;
 }
 
 p{
@@ -48,6 +80,28 @@ p{
   margin: auto;
   max-width: 600px;
   line-height: 1.2;
+  color: grey;
+}
+
+/* dropdown */
+a.dd:link {
+  color: grey;
+  text-decoration: none;
+}
+
+a.dd:visited {
+  color: grey;
+  text-decoration: none;
+}
+
+a.dd:hover {
+  color: #1da099;
+   text-decoration: none;
+}
+
+a.dd:active {
+  color: grey;
+  text-decoration: none;
 }
 
 
@@ -81,24 +135,112 @@ p.3{
 }
 
 /* view my portfolio */
-a:link {
+a.portfolio:link {
   color: ivory;
   text-decoration: none;
 }
 
-a:visited {
+a.portfolio:visited {
   color: white;
   text-decoration: none;
 }
 
-a:hover {
+a.portfolio:hover {
   color: #1da099;
    text-decoration: none;
 }
 
-a:active {
+a.portfolio:active {
   color: white;
   text-decoration: none;
 }
+
+/*
+div.box4{
+ margin-left: 575px;
+ margin-top: 30px;
+} */
+
+
+/* footer */
+a.footer:link {
+  color: lightgrey;
+  text-decoration: none;
+}
+
+a.footer:visited {
+  color: lightgrey;
+  text-decoration: none;
+}
+
+a.footer:hover {
+  color: grey;
+   text-decoration: none;
+   opacity: 0.7;
+}
+
+a.footer:active {
+  color: lightgrey;
+  text-decoration: none;
+}
+
+/* animation */
+.box5 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+
+}
+
+svg {
+  width: 128px;
+  height: 128px;
+}
+
+/* SMOKE */
+#smoke-1 {
+  stroke-dasharray: 0, 10;
+  animation: smoke 6s ease infinite;
+}
+
+#smoke-2 {
+  stroke-dasharray: 0, 10;
+  animation: smoke 6s 0.5s ease infinite;
+}
+
+@keyframes smoke {
+  0% { stroke-dasharray: 0, 10; }
+  50% { stroke-dasharray: 10, 0; }
+  100% { stroke-dasharray: 10, 0; opacity: 0; }
+}
+
+/* WRITING */
+#line-1 {
+  opacity: 0;
+  animation: writing 0.5s linear forwards;
+}
+
+#line-2 {
+  opacity: 0;
+  animation: writing 0.5s 1s linear forwards;
+}
+
+#line-3 {
+  opacity: 0;
+  animation: writing 0.5s 1.5s linear forwards;
+}
+
+#line-4 {
+  opacity: 0;
+  animation: writing 0.5s 2s linear forwards;
+}
+
+@keyframes writing {
+  0% { width: 0px; opacity: 1;}
+  100% { width: 14px; opacity: 1;}
+}
+
 
 }
