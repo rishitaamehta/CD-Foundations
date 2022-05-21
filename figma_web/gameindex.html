@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="gamestyles.css">
+<link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Varela&display=swap" rel="stylesheet">
+
+  <title>Guess the Word</title>
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+</head>
+
+<body>
+
+    <h1>GUESS THE WORD</h1>
+
+    <h2> Learn new words! Choose a category and unscramble the letters to form a word. </h2>
+<br>
+
+<div class="flex-container">
+    <div>
+        <button id="countriesButton">Countries</button>
+    </div>
+<br>
+    <div>
+        <button id="animalsButton">Animals</button>
+    </div>
+<br>
+    <div>
+        <button id="fruitsButton">Fruits</button>
+    </div>
+  </div>
+<br>
+
+    <div>
+        <em><p style="color:grey;" id="chosenCategoryP"> </p>
+        <h3 id="givenWord"></h3></em>
+    </div>
+<br>
+
+    <p class="text"> <input type="text" id="fname" name="fname"> </p>
+<br>
+
+    <div id="submit">
+        <p> <button class="submit" type="button" id="submitButton"><span>Submit</span></button> </p>
+    </div>
+<br>
+
+  <em>  <h4 style="color:grey;" id="messageHeader"></h4> </em>
+<br>
+
+    <div id="reset">
+        <p> <button type="button" id="resetButton">Reset</button> </p>
+    </div>
+<br>
+
+
+
+
+
+    <script src="gamemyscript.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,103 @@
+/* This changes three of the default styles and many webdesigners include this in the top of every style they create. */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Varela';
+  margin: auto;
+  max-width: 900px;
+  margin-top: 50px;
+  background-image: url("page.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: top;
+}
+
+h1{
+  text-align: center;
+  font-family: 'Patrick Hand';
+  font-size: 3em;
+  color: #008CBA;
+}
+
+h2 {
+  font-size: 1.4em;
+  text-align: center;
+color: #555555;
+}
+
+h3{
+  color:#008CBA;
+  font-family: 'Patrick Hand';
+  font-size: 1.8em;
+   letter-spacing: 2px;
+}
+
+p.text{
+color: #555555;
+font-family: 'Varela';
+}
+
+button {
+  background-color: #555555;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+button:hover {
+  opacity: 30%;
+}
+
+/* subit button */
+
+button.submit {
+  background-color: #555555;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+button.submit span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+button.submit span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+button.submit:hover span {
+  padding-right: 25px;
+}
+
+button.submit:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.flex-container {
+  display: flex;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}

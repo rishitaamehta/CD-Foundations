@@ -34,6 +34,6 @@ for(k=0;k<y;k++)
   }
   else
     empty+=x[k];
-
+}
 console.log(empty)
 document.getElementById('rm').innerHTML = document.getElementById('rm').innerHTML + empty
